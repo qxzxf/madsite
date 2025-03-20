@@ -18,9 +18,6 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
           MAD_VIST
         </p>
-        <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg font-medium transform transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-50">
-          Связаться со мной
-        </button>
       </div>
       
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
