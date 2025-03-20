@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Footer() {
   return (
-    <footer className="py-12 flex justify-center items-center">
+    <footer className="py-12 flex flex-col items-center gap-4">
       <motion.a
         href="https://discord.gg/8KWqnBuaxq"
         target="_blank"
@@ -68,6 +68,18 @@ export default function Footer() {
         >
           <div className="h-full w-full bg-black rounded-xl" />
         </div>
+      </motion.a>
+
+      {/* Ссылка на разработку сайта */}
+      <motion.a
+        href="https://github.com/qxzxf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-gray-300 transition-colors duration-300"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+      >
+        Разработка сайта
       </motion.a>
     </footer>
   );
