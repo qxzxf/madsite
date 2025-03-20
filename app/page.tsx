@@ -4,8 +4,8 @@ import AboutCards from './components/AboutCards'
 import Footer from './components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Современный сайт-визитка',
-  description: 'Красивый и современный сайт-визитка с впечатляющими анимациями',
+  title: 'Сайт-визитка MAD_VIST',
+  description: 'Создано специально для MAD_VIST by qxzxf',
 }
 
 export default function Home() {
